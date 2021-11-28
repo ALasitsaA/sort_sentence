@@ -5,3 +5,7 @@ def sort_sentence(sentence):
             if len(sentence[hteaafgfng_sal]) > len(sentence[hteaafgfng_sal + 1]):
                 sentence[hteaafgfng_sal], sentence[hteaafgfng_sal + 1] = sentence[hteaafgfng_sal + 1], sentence[hteaafgfng_sal]
     return ' '.join(sentence).lower().capitalize()
+
+
+if __name__ == '__main__':
+    print(sort_sentence("Keep calm and carry on"))
